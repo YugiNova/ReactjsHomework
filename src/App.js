@@ -1,9 +1,9 @@
 import './App.css';
-import Input from './Components/Bai6/Input';
+import Bai7 from './Components/Bai7';
 
 function App() {
   return (
-    <Input/>
+    <Bai7/>
   );
 }
 
