@@ -49,7 +49,10 @@ const Bai7 = () => {
         setOpen(true);
     }
     const onDelete = (selectedUser) => {
-        
+        const newUsers = users.filter((item)=>{
+            return item.id !== selectedUser.id;
+        })
+        setUsers(newUsers);
     }
 
     return(
