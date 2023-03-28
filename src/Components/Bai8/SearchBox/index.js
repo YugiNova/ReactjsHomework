@@ -9,7 +9,7 @@ const SearhBox = ({searchData,setSearchData, onSearch}) => {
 
     return (
         <SearhContainer>
-            <Input onChange={onChange}/>
+            <Input onChange={onChange} placeholder="type city name here..."/>
             <Button onClick={() => {onSearch(searchData)}}><img src={search}/></Button>
         </SearhContainer>
     );
